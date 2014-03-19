@@ -16,7 +16,7 @@ object $name;format="Camel"$Build extends Build {
       scalaVersion := "2.10.3",
       // add other settings here
       libraryDependencies ++= Seq(
-        "edu.mjkay" %% "library" % "0.1-SNAPSHOT",
+        "edu.mjkay" %% "library_2.10" % "0.1-SNAPSHOT",
         "org.scalatest" % "scalatest_2.10" % "2.0" % "test" withSources() withJavadoc(),
         "org.scalacheck" %% "scalacheck" % "1.10.0" % "test" withSources() withJavadoc()
       )
